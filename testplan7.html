@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Test Plan</title>
+    <link href='css/bootstrap.min.css' rel="stylesheet" media="screen">
+  </head>
+  <body>
+<!--START Main Content =====================================================-->
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">PRD1234</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Test Plans</a></li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Sections <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Functional </a></li>
+            <li><a href="#"> Robustness </a></li>
+            <li><a href="#"> Performance </a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Tags <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> SIP </a></li>
+            <li><a href="#"> Call Services </a></li>
+            <li><a href="#"> MGCPs </a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Releases <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> V8.3.10 </a></li>
+            <li><a href="#"> V8.3.03 </a></li>
+            <li><a href="#"> V9.0 </a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"> <span class="label label-info"> Performance </span></a></li>
+        <li><a href="#"> <span class="label label-info"> V9.0 </span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<table class="table table-hover">
+  <tr>
+    <th>  </th>
+    <th> Status </th>
+    <th> Owner </th>
+    <th> Summary </th>
+    <th> </th>
+    <th> SFRs</th>
+  </tr>
+  <tr class="success">
+    <td> 
+      <div class="btn-group">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          22&nbsp;<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Passed</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Pending </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#fail_tc" tabindex="-1" href="#"> Failed </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Retest </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Defer </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Description </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#history" tabindex="-1" href="#"> History </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> SFRs </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#edit_tc" tabindex="-1" href="#"> Edit test case </a></li>
+
+        </ul>
+      </div>
+    </td>
+    <td> <span class="label label-success">Passed</span> </td>
+    <td> </td>
+    <td> Check that something happens when you do this thing </td>
+    <td> <a href='#'data-toggle="popover" data-placement="bottom" data-content='<p> a longer description of what the test case should entail</p><p> First off you should do these things:</p><ul><li> Check something over there</li><li> look up something that is a bit more compliacted </li><li> then go check that that other thing that oyu were lookng at a while ago hasn;t changes</li>'><span class="glyphicon glyphicon-plus-sign"></span></a> </td>
+    <td> </td>
+  </tr>
+  </tr>
+  <tr class="info">
+    <td> 
+      <div class="btn-group">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          23&nbsp;<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Passed</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Pending </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#fail_tc" tabindex="-1" href="#"> Failed </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Retest </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Defer </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Description </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#history" tabindex="-1" href="#"> History </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> SFRs </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#edit_tc" tabindex="-1" href="#"> Edit test case </a></li>
+        </ul>
+      </div>
+    </td>
+    <td> <span class="label label-info">Pending</span> </td>
+    <td> SHB2 </td>
+    <td> Check that something happens when you do this thing </td>
+    <td><a href='#'data-toggle="popover" data-placement="bottom" data-content="For complicated test cases then many more details can be included here. For instance stuff like this."><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+    <td> </td>
+  </tr>
+  </tr>
+  <tr class="warning">
+    <td> 
+      <div class="btn-group">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          24&nbsp;<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Passed</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Pending </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#fail_tc" tabindex="-1" href="#"> Failed </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Retest </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Defer </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Description </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#history" tabindex="-1" href="#"> History </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> SFRs </a></li>
+          <li role="presentation"><a role="menuitem" data-toggle="modal" data-target="#edit_tc" tabindex="-1" href="#"> Edit test case </a></li>
+        </ul>
+      </div>
+    </td>
+    <td> <span class="label label-danger">Failed</span> </td>
+    <td> </td>
+    <td> Check that something happens when you do this thing     </td>
+    <td> </td>
+    <td> <span class="label label-success">456256</span> <span class="label label-danger">453337</span> </td>
+  </tr>
+</table>
+
+<!-- History Modal -->
+<div class="modal fade" id="history" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <table class="table table-hover">
+          <tr>
+            <th> Status </th>
+            <th> Authour </th>
+            <th> Date </th>
+            <th> Summary </th>
+            <th> </th>
+            <th> SFRs</th>
+          </tr>
+          <tr>
+            <td class="warning"> <span class="label label-success">Passed</span> </td>
+            <td class="warning"> MS1 </td>
+            <td class="warning"> 31/03/1988 </td>
+            <td> Check that something happens when you do this thing     </td>
+            <td> </td>
+            <td class="warning"> <span class="label label-success">456256</span> <span class="label label-success">453337</span> </td>
+          </tr>  
+          <tr>
+            <td> <span class="label label-danger">Failed</span> </td>
+            <td> SHB2 </td>
+            <td class="warning"> 28/03/1988 </td>
+            <td> Check that something happens when you do this thing     </td>
+            <td> </td>
+            <td class="warning"> <span class="label label-success">456256</span> <span class="label label-danger">453337</span> </td>
+          </tr>          
+          <tr>
+            <td class="warning"> <span class="label label-danger">Failed</span> </td>
+            <td class="warning"> SHB2 </td>
+            <td class="warning"> 25/03/1988 </td>
+            <td> Check that something happens when you do this thing     </td>
+            <td> </td>
+            <td class="warning"> <span class="label label-danger">456256</span> </td>
+          </tr>
+          <tr>
+            <td> <span class="label label-info">Pending</span> </td>
+            <td> MJB2 </td>
+            <td class="warning"> 30/02/1988 </td>
+            <td class="warning"> Check that something happens when you do this thing     </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td class="warning"> <span class="label label-info">Pending</span> </td>
+            <td class="warning"> MJB2 </td>
+            <td class="warning"> 25/02/1988 </td>
+            <td class="warning"> Check that something happens </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal fade" id="edit_tc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputPassword1">Test Case Number</label>
+    <input class="form-control" id="summary_id" value="23">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Owner</label>
+    <select class="form-control">
+      <option>SHB2</option>
+      <option>MJB2</option>
+      <option>MS1</option>
+      <option>EA</option>
+      <option>PAB</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Summary</label>
+    <input class="form-control" id="summary_id" value="Check that something happens when you do this thing">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Description</label>
+    <textarea class="form-control" name="message" id="message_id" rows="5"><p> a longer description of what the test case should entail</p><p> First off you should do these things:</p><ul><li> Check something over there</li><li> look up something that is a bit more compliacted </li><li> then go check that that other thing that oyu were lookng at a while ago hasn;t changes</li>'></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- fail Modal -->
+<div class="modal fade" id="fail_tc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputPassword1">SFR</label>
+    <input class="form-control" id="sfr_id">
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END   MAin Content =====================================================--> 
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$('[data-toggle="tooltip"]').tooltip({
+    'placement': 'top'
+});
+    </script>
+    <script type="text/javascript">
+$('[data-toggle="popover"]').popover({
+    trigger: 'hover',
+    html: true,
+    'placement': 'bottom'
+});
+    </script>
+  </body>
+</html>

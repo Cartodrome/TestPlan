@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Test Plan</title>
+    <link href='css/bootstrap.min.css' rel="stylesheet" media="screen">
+  </head>
+  <body>
+<!--START Main Content =====================================================-->
+
+<table class="table table-hover">
+  <tr>
+    <th>  </th>
+    <th> Status </th>
+    <th> Owner </th>
+    <th> Date </th>
+    <th> Summary </th>
+    <th> </th>
+    <th> SFRs</th>
+  </tr>
+  <tr class="success">
+    <td> 
+      <div class="btn-group">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Passed</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Pending </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Failed </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Retest </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Defer </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Description </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> History </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Add SFR </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Edit test case </a></li>
+
+        </ul>
+      </div>
+    </td>
+    <td> <span class="label label-success">Passed</span> </td>
+    <td> SHB2 </td>
+    <td> 25/03/1988 </td>
+    <td> Check that something happens when you do this thing </td>
+    <td> <a href='#'data-toggle="popover" data-placement="bottom" data-content='<p> a longer description of what the test case should entail</p><p> First off you should do these things:</p><ul><li> Check something over there</li><li> look up something that is a bit more compliacted </li><li> then go check that that other thing that oyu were lookng at a while ago hasn;t changes</li>'><span class="glyphicon glyphicon-plus-sign"></span></a> </td>
+    <td> </td>
+  </tr>
+  </tr>
+  <tr class="info">
+    <td> 
+      <div class="btn-group">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Passed</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Pending </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Failed </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Retest </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Defer </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Description </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> History </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Add SFR </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Edit test case </a></li>
+        </ul>
+      </div>
+    </td>
+    <td> <span class="label label-info">Pending</span> </td>
+    <td> SHB2 </td>
+    <td> 25/03/1988 </td>
+    <td> Check that something happens when you do this thing </td>
+    <td><a href='#'data-toggle="popover" data-placement="bottom" data-content="For complicated test cases then many more details can be included here. For instance stuff like this."><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+    <td> </td>
+  </tr>
+  </tr>
+  <tr class="warning">
+    <td> 
+      <div class="btn-group">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Passed</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Pending </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Failed </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Retest </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Defer </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Description </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> History </a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Add SFR </a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"> Edit test case </a></li>
+        </ul>
+      </div>
+    </td>
+    <td> <span class="label label-danger">Failed</span> </td>
+    <td> SHB2 </td>
+    <td> 25/03/1988 </td>
+    <td> Check that something happens when you do this thing     </td>
+    <td> </td>
+    <td> <span class="label label-danger">456256</span> <span class="label label-danger">453337</span> </td>
+  </tr>
+</table>
+
+<div class="dropdown">
+  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
+
+
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--END   MAin Content =====================================================--> 
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$('[data-toggle="tooltip"]').tooltip({
+    'placement': 'top'
+});
+    </script>
+    <script type="text/javascript">
+$('[data-toggle="popover"]').popover({
+    trigger: 'hover',
+    html: true,
+    'placement': 'bottom'
+});
+    </script>
+  </body>
+</html>
